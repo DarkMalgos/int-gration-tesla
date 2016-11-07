@@ -1,0 +1,287 @@
+#block1 {
+    width: 100%;
+    height: auto;
+    
+    background: url(tesla/hero_bg.jpg) no-repeat 0 0;
+    background-size: 100%;
+}
+
+header {
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 128px;
+}
+
+#block1 header img {
+    float: left;
+    margin-left: 5%;
+}
+
+#block1 header ul {
+    list-style: none;
+    float: right;
+    margin-right: 2.5%;
+}
+
+#block1 header ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+#block1 header ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+#block1 header ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    overflow: hidden;
+}
+
+#home ul {
+    float: left;
+    margin-top: 16%;
+    margin-left: 2.5%;
+}
+
+#home ul li {
+    list-style-image: url("tesla/dotleft.png");
+	width: 40px;
+	margin-left: 40px;
+	margin-top: 30%;
+}
+
+#home ul li:hover {
+    list-style-image: url("tesla/hoverdot.png");
+	width: 40px;
+	margin-left: 40px;
+	margin-top: 30%;
+}
+
+#home #auto-model {
+    float: right;
+    padding-top: 140px;
+
+    margin-right: 8.5%;
+	padding-bottom: 160px;
+	background: url(tesla/bullets_bottom.png) no-repeat bottom left;
+}
+
+#auto-model h1 {
+    color: white;
+    font-size: 36px;
+}
+
+#auto-model p {
+    color: #adadad;
+	margin: 15px 0;
+    padding-bottom: 20px;
+}
+
+#auto-model a{
+    color: #ffffff;
+	font-size: 25px;
+	text-decoration: none;
+	border:solid 2px #ffffff;
+	border-radius: 2px;
+	padding: 9px 16px 5px;
+    width: 120px
+}
+
+#auto-prouesse {
+    overflow: hidden;
+    margin-top: 100px;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#auto-prouesse #seat {
+    float: left;
+    margin-left: 135px;
+    background: url(tesla/bullets_top.png) no-repeat top;
+    
+}
+
+#seat h2 {
+    font-size: 100px;
+    color: white;
+    padding-top: 180px;
+    padding-left: 5px;
+}
+
+#seat p {
+    color: grey;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+#auto-prouesse #acceleration {
+    
+    margin-top: 10px;
+    background: url(tesla/bullets_top.png) no-repeat top;
+    text-align: center;
+}
+
+#acceleration h2 {
+    padding-top: 180px;
+    padding-right: 230px;
+    font-size: 100px;
+    color: white;
+}
+
+#acceleration span {
+    
+}
+
+#acceleration p {
+    text-align: left;
+    padding-left: 580px;
+    color: grey;
+    font-size: 15px;
+    margin-top: -30px;
+}
+#auto-prouesse #range {
+    float: right;
+    margin-top: -27%;
+    margin-right: 65px;
+    background: url(tesla/bullets_top.png) no-repeat top;
+}
+
+#range h2 {
+    font-size: 100px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#range p {
+    color: grey;
+    font-size: 15px;
+    margin-top: -30px;
+    padding-left: 100px;
+}
+
+#block2 {
+    width: 100%;
+    height: 670px;
+}
+
+#exterior {
+    width: 100%;
+    height: 350px;
+    background: #44647d;
+    overflow: hidden;
+    position: relative;
+}
+
+#exterior #exterior-text {
+    padding-left: 5%;
+}
+#exterior-text {
+    float: left;
+    overflow: hidden;
+}
+
+#exterior-text h2 {
+    float: left;
+    padding-top: 10%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#exterior-text img {
+    float: right;
+    padding-top: 10%;
+}
+
+#exterior-text p {
+    clear: both;
+    padding-top: 3%;
+    color: white;
+}
+
+#exterior-img {
+    float: right;
+}
+
+#exterior-img img {
+    height: 350px;
+    margin-top: -29.5%;
+    z-index: -1;
+}
+
+#interior {
+    width: 100%;
+    height: 350px;
+    background: #31303e;
+    overflow: hidden;
+}
+
+#interior-img {
+    float: left;
+}
+
+#interior-img img{
+    height: 350px;
+}
+
+#interior #interior-text {
+    padding-top: 5%;
+}
+
+#interior-text h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#interior-text p {
+    color: white;
+}
+
+#block3 {
+    width: 100%;
+    height: 191px;
+}
+
+#block3 #button {
+    margin-top: 130px;
+    margin-left: 30%;
+}
+#button {
+    width: 533px;
+    height: 93px;
+    background: #24242e;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#button p {
+    color: white;
+    padding-top: 7%;
+    font-weight: bold;
+}
+
+#block3 #block3-p {
+    color: #64647e;
+    font-style: italic;
+    padding-top: 2%;
+    padding-left: 25%;
+    font-size: 20px;
+}
+
+#footer {
+    width: 100%;
+    height: 119px;
+    background: #62647d;
+    text-align: center;
+}
+
+#footer img {
+    padding-top: 2%;
+}
